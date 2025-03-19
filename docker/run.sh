@@ -7,5 +7,6 @@ sudo docker run -p 8888:8888 \
 	-v $LUNAR_VAE:/workspace/lunar-vae \
 	-v $DATA:/workspace/datasets \
 	-v  $NOTEBOOKS:/workspace/notebooks \
+	-v $OUTPUTS:/workspace/outputs \
 	-e JUPYTER_TOKEN=$CONTAINER_TOKEN \
 	$CONTAINER_NAME
