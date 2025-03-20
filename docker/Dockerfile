@@ -28,4 +28,6 @@ EXPOSE 8888
 
 WORKDIR /workspace
 
+ENV PYTHONPATH="/workspace/lunar-vae/scripts:/workspace/diviner-tools/scripts"
+
 CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
