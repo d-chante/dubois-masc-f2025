@@ -1,0 +1,11 @@
+Data Metrics:
+	Mean: 191.0980
+	STD: 105.1539
+	Min Temp: 50.0000
+	Max Temp: 424.9460
+Datasets:
+	Training Data: 1901438
+	Validation Data: 543268
+	Test Data: 271635
+Best Validation Loss in Kelvins:
+	52.8081 K
