@@ -5,14 +5,15 @@
 ## Setup
 These instructions assume a Ubuntu 24.04 LTS operating system.
 1. Download the datasets 
-2. [Install Docker](https://docs.docker.com/engine/install/ubuntu/)
-3. Clone the dubois-masc-f2025 repository: `git@github.com:d-chante/dubois-masc-2025.git`
-4. Clone the lunar-vae repository: `git clone git@github.com:d-chante/lunar-vae.git`
-5. Clone the diviner-tools repository: `git@github.com:d-chante/diviner-tools.git`
-6. Create an `outputs` folder: `mkdir outputs`
-7. Go to the docker folder: `cd /path/to/dubois-masc-2025/docker/`
-8. Edit the `common.sh` file to reflect the locations of the relevant folders
-9. Build the Docker container by running: `./build.sh`
-10. Start the Docker container by running `./run.sh` 
+2. Install git: `sudo apt update && sudo apt install git`
+3. [Install Docker](https://docs.docker.com/engine/install/ubuntu/)
+4. Clone the dubois-masc-f2025 repository: `git clone git@github.com:d-chante/dubois-masc-2025.git`
+5. Clone the lunar-vae repository: `git clone git@github.com:d-chante/lunar-vae.git`
+6. Clone the diviner-tools repository: `git clone git@github.com:d-chante/diviner-tools.git`
+7. Create an `outputs` folder: `mkdir outputs`
+8. Go to the docker folder: `cd /path/to/dubois-masc-2025/docker/`
+9. Edit the `common.sh` file to reflect the locations of the relevant folders
+10. Build the Docker container by running: `./build.sh`
+11. Start the Docker container by running `./run.sh` 
 
 You should now be able to access the Jupyter Notebook instance via `http://127.0.0.1:8888`
